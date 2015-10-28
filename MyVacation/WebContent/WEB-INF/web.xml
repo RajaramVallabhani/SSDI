@@ -23,6 +23,6 @@
     </servlet-mapping>  
   
     <welcome-file-list>  
-        <welcome-file>Home_Page_Final.jsp</welcome-file>  
+        <welcome-file>Home_Page_Final2.jsp</welcome-file>  
     </welcome-file-list>  
 </web-app> 

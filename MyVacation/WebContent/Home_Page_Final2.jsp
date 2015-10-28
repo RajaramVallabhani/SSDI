@@ -7,11 +7,13 @@ if(username!=null){
 //out.print("Hello "+username);  
 } else{
 	//out.print("Hello Guest");
-}  
+}
+  
+  
  %> 
- 
 <html><head>
 <link rel="stylesheet" href="css/home.css" type="text/css">
+
 <link rel="stylesheet" href="css//jquery-ui.css">
 <script src="//code.jquery.com/jquery-1.10.2.js"></script>
 <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -43,12 +45,16 @@ if(username!=null){
 <div class="header" >
 <img src="images/myvacalogo.png" alt="logo" style="width: 122px;" >  
 	<div>Hello </div>
-    <a href="Home_Page_Final2.jsp" class="btn btn-lg btn-block  btn-header " style="text-decoration: none;float:right; margin-top:15px;margin-right:10px;"> Logout </a>
+    <a href="Register_Page.jsp#login" class="btn btn-lg btn-block  btn-header " style="text-decoration: none;float:right; margin-top:15px;margin-right:10px;"> SignIn </a>
+	
+	  <a  href="Register_Page.jsp#toregister" class="btn btn-lg btn-block  btn-header " style="text-decoration: none;float:right; margin-top:15px;margin-right:10px;"> Register </a>
 	  
 	    
 </div>
 <div class="maincontainer">
+
 <div class="widget">
+
 <div id="tabs">
   <ul>
     <li><a href="#destination">Destination</a></li>
