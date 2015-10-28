@@ -1,6 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<%  
+String username=(String)request.getAttribute("name");  
+if(username!=null){  
+//out.print("Hello "+username);  
+} else{
+	//out.print("Hello Guest");
+}
+  
+  
+ %> 
 <html><head>
 <link rel="stylesheet" href="css/home.css" type="text/css">
 
@@ -34,6 +44,7 @@
 <body style="margin:0px;" background="http://www.macwallhd.com/wp-content/Wallpapers/20121028/Wallpaper%20Vacation%20Silhouette%20Island%20Seychelles888.jpg">
 <div class="header" >
 <img src="images/myvacalogo.png" alt="logo" style="width: 122px;" >  
+	<div>Hello </div>
     <a href="Register_Page.jsp#login" class="btn btn-lg btn-block  btn-header " style="text-decoration: none;float:right; margin-top:15px;margin-right:10px;"> SignIn </a>
 	
 	  <a  href="Register_Page.jsp#toregister" class="btn btn-lg btn-block  btn-header " style="text-decoration: none;float:right; margin-top:15px;margin-right:10px;"> Register </a>

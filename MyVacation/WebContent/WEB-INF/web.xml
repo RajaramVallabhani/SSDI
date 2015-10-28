@@ -12,6 +12,15 @@
         <servlet-name>login</servlet-name>  
         <url-pattern>/LoginServlet</url-pattern>  
     </servlet-mapping>  
+     <servlet>  
+        <servlet-name>reg</servlet-name>  
+        <servlet-class>vacation.servlets.RegistrationServlet</servlet-class>  
+    </servlet>  
+  
+    <servlet-mapping>  
+        <servlet-name>reg</servlet-name>  
+        <url-pattern>/register</url-pattern>  
+    </servlet-mapping>  
   
     <welcome-file-list>  
         <welcome-file>Home_Page_Final.jsp</welcome-file>  

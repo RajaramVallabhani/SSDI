@@ -48,7 +48,7 @@
 				</div>
 
 				<div id="register" class="animate form">
-					<form action="registrationservlet" autocomplete="on">
+					<form action="register" autocomplete="on" method="POST">
 						<h1>Sign up</h1>
 						<p>
 							<label for="usernamesignup" class="uname" data-icon="u"> Your username</label> <input id="usernamesignup" name="usernamesignup"
