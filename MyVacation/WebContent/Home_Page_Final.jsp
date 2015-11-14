@@ -85,10 +85,10 @@ if(username!=null){
      
     <tr><td>
     <select name="To" class="dropDownList">
-  <option value="Paris">Paris</option>
+  <option value="Amsterdam">Amsterdam</option>
   <option value="Rome">Rome</option>
   <option value="London">London</option>
-  <option value="Amsterdam">Amsterdam</option>
+  <option value="Paris">Paris</option>
 </select></td>
     </tr>
 

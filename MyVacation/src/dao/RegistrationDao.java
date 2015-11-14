@@ -1,13 +1,13 @@
-package vacation.dao;
+package dao;
+
 import java.sql.Connection;
 import java.sql.Driver;
-import java.sql.DriverManager;  
-import java.sql.PreparedStatement;  
-import java.sql.ResultSet;  
-import java.sql.SQLException;  
-  
-public class RegistrationDao {  
-    public static boolean validate(String email,String name, String pass) throws SQLException {          
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+public class RegistrationDao {
+	public static boolean validate(String email,String name, String pass) throws SQLException {          
         boolean status = false;  
         Connection conn = null;  
         PreparedStatement pst = null;  
@@ -59,5 +59,5 @@ public class RegistrationDao {
             }  
         }  
         return status;  
-    }  
-} 
+    }
+}

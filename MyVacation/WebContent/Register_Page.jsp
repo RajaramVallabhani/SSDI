@@ -39,7 +39,7 @@
 							<input type="submit" value="Login" />
 						</p>
 						<p class="change_link" align="center">
-						<a href="Home_Page_Final.jsp" class="to_register" >Back to Home</a>
+						<a href="Home_Page_Final2.jsp" class="to_register" >Back to Home</a>
 						&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 						Not a member yet ? <a href="#toregister" class="to_register">Join
 								us</a>
@@ -75,7 +75,7 @@
 							<input type="submit" value="Sign up" />
 						</p>
 						<p class="change_link" align="center">
-						<a href="Home_Page_Final.jsp" class="to_register" >Back to Home</a>
+						<a href="Home_Page_Final2.jsp" class="to_register" >Back to Home</a>
 						&nbsp&nbsp&nbsp&nbsp&nbsp
 							Already a member ? <a href="#tologin" class="to_register"> Go
 								and log in </a>
